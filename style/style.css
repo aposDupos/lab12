@@ -27,7 +27,8 @@ h3 {
 }
 
 .form {
-    margin: 0 40%;
+    margin: auto;
+    max-width: 300px;
 }
 
 .form_item {
