@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    margin: 0 10%;
+}
+main
+
+h1 {
+    color: #490B3D;
+    margin: 1em 0;
+}
+
+p {
+    color: #BD1E51;
+    margin: 1em 0;
+
+}
+
+h3 {
+    color: #F1B814;
+}
+
+.form {
+    margin: 0 40%;
+}
+
+.form_item {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1.5em;
+}
+
+input {
+    padding: 10px;
+    border-radius: 20px;
+    border: 3px solid #BD1E51;
+    background: #BD1E51;
+    font-size: 1.5em;
+    transition: 1s;
+    color: #f1f1f1;
+}
+
+input:focus {
+    outline: none;
+    background: white;
+    color: #BD1E51;
+}
+
+label {
+    text-align: left;
+    font-weight: bold;
+    font-size: 1em;
+    color: #490B3D;
+}
+
+.button {
+    border: 3px solid #F1B814;
+    border-radius: 10px;
+    padding: 10px;
+    transition: .5s ease-in-out;
+    font-size: 1em;
+    outline: none;
+    cursor: pointer;
+    color: #490B3D;
+}
+
+.button:hover {
+    border: 3px solid white;
+    background: #F1B814;
+    color: #f1f1f1;
+}
+
+ol {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.li {
+    margin: auto;
+    text-align: left;
+    padding-bottom: .5em;
+}
+
